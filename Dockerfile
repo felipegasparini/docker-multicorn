@@ -2,7 +2,7 @@
 # Multicorn 0.9.1 on Postgres 9.1
 ##
 FROM ubuntu:12.04
-MAINTAINER Mike Douglas <michael.j.douglas@gmail.com>
+MAINTAINER Mike Douglas http://www.github.com/mike-douglas/
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
 RUN apt-get update
