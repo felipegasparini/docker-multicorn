@@ -13,6 +13,7 @@ ENV DB_PASS docker
 ENV DB_NAME multicorn
 
 RUN apt-get install -y build-essential python-dev python-pip postgresql postgresql-server-dev-9.1
+RUN apt-get clean
 RUN pip install pgxnclient
 RUN pgxn install multicorn==0.9.1 --testing
 
