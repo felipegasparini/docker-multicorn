@@ -6,7 +6,7 @@ DB_NAME=${DB_NAME}
 
 SU='/bin/su postgres -c'
 
-rm /var/lib/postgresql/9.1/main/postmaster.pid /var/run/postgresql/.*.lock
+rm /var/lib/postgresql/9.3/main/postmaster.pid /var/run/postgresql/.*.lock
 service postgresql start
 
 if [ ! -e '/done_setup' ]; then
@@ -25,4 +25,4 @@ if [ ! -e '/done_setup' ]; then
     echo 1 > /done_setup
 fi
 
-tail -f /var/log/postgresql/postgresql-9.1-main.log
+tail -f /var/log/postgresql/postgresql-9.3-main.log

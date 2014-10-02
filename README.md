@@ -1,6 +1,6 @@
 # docker-multicorn
 
-Postgres 9.1 server with Multicorn foreign data wrappers
+Postgres 9.3 server with Multicorn foreign data wrappers
 
 `docker build -t multicorn .`
 
