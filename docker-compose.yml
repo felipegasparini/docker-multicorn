@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  multicorn:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+    - ./src:/src
+    ports:
+    - "32768:5432"
