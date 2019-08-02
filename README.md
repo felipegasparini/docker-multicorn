@@ -5,8 +5,8 @@ Use this project as a quick way to get started with Postgres FDW using Multicorn
 It contains:
 
 * Dockerfile with:
-    * Postgres 10
-    * Python3.6
+    * Postgres 11
+    * Python3.7
     * Multicorn 1.3.4
 
 * Sample FDW implementation in `src/`
